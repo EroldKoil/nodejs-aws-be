@@ -1,0 +1,27 @@
+{
+  "unknown": {
+    "versionFramework": "4.6.4",
+    "dashboard": {
+      "isEnabledForService": false,
+      "requiredAuthentication": true,
+      "orgFeaturesInUse": null,
+      "orgObservabilityIntegrations": null,
+      "serviceAppId": null,
+      "serviceProvider": null,
+      "instanceParameters": null
+    },
+    "command": [
+      "login"
+    ],
+    "options": {},
+    "orgId": "0e93249d-a7dc-4074-949e-405e257a2608",
+    "orgName": "mikalai",
+    "userId": "sfJh5p9NtKFWlfFN8V",
+    "userName": "mikalai",
+    "serviceProviderAwsCfStackId": null,
+    "serviceProviderAwsCfStackCreated": null,
+    "serviceProviderAwsCfStackUpdated": null,
+    "serviceProviderAwsCfStackStatus": null,
+    "serviceProviderAwsCfStackOutputs": null
+  }
+}
