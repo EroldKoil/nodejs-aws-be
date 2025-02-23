@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/EroldKoil/nodejs-aws-be/issues"
   },
-  "homepage": "https://github.com/EroldKoil/nodejs-aws-be#readme"
+  "homepage": "https://github.com/EroldKoil/nodejs-aws-be#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0"
+  }
 }
