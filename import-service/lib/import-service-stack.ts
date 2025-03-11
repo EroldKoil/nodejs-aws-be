@@ -28,6 +28,11 @@ export class ImportServiceStack extends cdk.Stack {
     // Создаем API Gateway
     const api = new apigateway.RestApi(this, 'ImportServiceApi', {
       restApiName: 'Import Service API',
+      defaultCorsPreflightOptions: {
+        allowHeaders: apigateway.Cors.DEFAULT_HEADERS,
+        allowMethods: apigateway.Cors.ALL_METHODS,
+        allowOrigins: ['https://d1izl2vvthbii6.cloudfront.net'],
+      },
     });
 
     // Добавляем маршрут `/import`
